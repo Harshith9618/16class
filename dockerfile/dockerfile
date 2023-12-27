@@ -1,0 +1,5 @@
+FROM nginx:latest
+LABEL maintainer="harshith"
+COPY ./index.html vcube
+RUN mkdir harshith
+EXPOSE 80 
